@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-color: rgb(230, 229, 229);
     font-family: Arial, Helvetica, sans-serif;     
 }
 /*  LOGO + MENU NAVIGAZIONE   */
@@ -71,28 +71,29 @@ main {
 }
 
 #span {
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: 1rem 1rem 0.5rem 1.7rem;
 }
 
 #span span {
     padding-right: 1.5em;
 }
 
-#txtspan {
+.txtspan {
     font-size: 0.7rem;
     color: rgb(9, 116, 210);
 }
 
 .img-sct {
     text-align: center;
+    padding-bottom: 0.6rem;
 }
 
 .img-sct img {
-    height: 250px;
+    height: 300px;
     width: 22%;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 3px 3px rgb(195, 187, 187);
+    box-shadow: 6px 6px 0 rgb(160, 160, 160);
     margin: 0.5em 1em;
 }
 
@@ -109,11 +110,19 @@ main {
     object-fit: fill;
 }
 
+#span2 {
+    padding-right: 1.5em;
+}
+
 .third-section {
     height: 35vh;
     margin: 2rem 0;
     padding-bottom: 2rem;
     text-align: center;
+}
+
+#span3 {
+    padding-right: 1.5em;
 }
 
 .third-section img { 
@@ -124,7 +133,7 @@ main {
 
 .bottom {
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 0.8rem;
     background-color: #374e6a;
     color: white;
     text-align: center;
@@ -140,7 +149,7 @@ footer {
     text-align: center;
     background-color: #232F3E;
     height: auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 footer img {
